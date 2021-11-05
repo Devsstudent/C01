@@ -1,7 +1,7 @@
 
 void	ft_rev_int_tab(int *tab, int size)
 {
-	int *buff_tab[size];
+	int buff_tab[size];
 	int n;
 	int rev;
 	rev = 0;

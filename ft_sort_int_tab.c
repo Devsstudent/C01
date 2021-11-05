@@ -1,4 +1,4 @@
-int	ft_check_order(int *tab, int size)
+int	ft_check_order(int *arr, int size)
 {
 	int n;
 	int j;
@@ -21,8 +21,9 @@ int	ft_check_order(int *tab, int size)
 
 void	ft_sort_int_tab(int *tab, int size)
 {
+	int buff;
 	int n;
-	while(check(tab, size) == 0)
+	while(ft_check_order(tab, size) == 0)
 	{
 		n = 0;
 		while (n < size - 1)
